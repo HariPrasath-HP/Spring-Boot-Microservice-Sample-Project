@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Microservice-Sample-Project.iml" filepath="$PROJECT_DIR$/Spring-Boot-Microservice-Sample-Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/../config-server/config-server.iml" filepath="$PROJECT_DIR$/../config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../config-server-application-properties/config-server-application-properties.iml" filepath="$PROJECT_DIR$/../config-server-application-properties/config-server-application-properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/../currency-conversion-service/currency-conversion-service.iml" filepath="$PROJECT_DIR$/../currency-conversion-service/currency-conversion-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../currency-exchange-service/currency-exchange-service.iml" filepath="$PROJECT_DIR$/../currency-exchange-service/currency-exchange-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test-service/test-service.iml" filepath="$PROJECT_DIR$/../test-service/test-service.iml" />
     </modules>
   </component>
 </project>

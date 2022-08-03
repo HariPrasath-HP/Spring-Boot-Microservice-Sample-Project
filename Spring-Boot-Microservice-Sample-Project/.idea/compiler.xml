@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="currency-conversion-service" />
+        <module name="test-service" />
         <module name="config-server" />
         <module name="currency-exchange-service" />
+        <module name="currency-conversion-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="11" />
       <module name="currency-conversion-service" target="11" />
       <module name="currency-exchange-service" target="11" />
+      <module name="test-service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="config-server" options="-parameters" />
       <module name="currency-conversion-service" options="-parameters" />
       <module name="currency-exchange-service" options="-parameters" />
+      <module name="test-service" options="-parameters" />
     </option>
   </component>
 </project>
